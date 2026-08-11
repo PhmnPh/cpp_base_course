@@ -1,6 +1,5 @@
 #include <cstdio>
 
-
 int main() {
     float a, b;
 
