@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.20)
 project(cpp_base_course)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)  # для clangd в neovim
 
 add_executable(l01_task01 lesson1/task1.cpp)
@@ -21,3 +21,6 @@ add_executable(l02_task10 lesson2/task10.cpp)
 add_executable(l02_task11 lesson2/task11.cpp)
 add_executable(l02_task12 lesson2/task12.cpp)
 add_executable(l02_task13 lesson2/task13.cpp)
+add_executable(l02_task14 lesson2/task14.cpp)
+add_executable(l02_task15 lesson2/task15.cpp)
+add_executable(l02_task16 lesson2/task16.cpp)
